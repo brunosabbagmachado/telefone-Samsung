@@ -1,0 +1,76 @@
+:root {
+    --branco-fundo: #ffffff;
+    --preto-numeros: #222222;
+    --cinza-claro: #c9c9c9;
+    --cinza-active: #d7d7d7;
+    --fonte-principal: 'Open Sans';
+}
+
+* {
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+body {
+    background: var(--branco-fundo);
+    color: var(--preto-numeros);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 3em;
+    font-size: 35px; 
+}
+
+.display {
+    text-align: center;
+    padding: .4em;
+    border: none;
+    font-size: 46px;
+    font-weight: 500;
+    color: var(--preto-numeros);
+}
+
+.display:disabled{
+    background: none;
+}
+
+.display::placeholder{
+    color: var(--cinza-claro);
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.tecla {
+    background: none;
+    border: none;
+    border-radius: 50%;
+
+    font-size: 36px;
+
+    width: 80px;
+    height: 80px;
+}
+
+.tecla:active {
+    border: 1px solid var(--cinza-active);
+    background-color: var(--cinza-active);
+}
+
+.botao_ligar {
+    width: 5%;
+    cursor: pointer;
+}
