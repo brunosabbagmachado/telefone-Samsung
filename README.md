@@ -10,4 +10,4 @@ A primeira versão continha os elementos do HTML criados dentro do mesmo, e o JS
 
 Nessa versão final, todo contéudo das teclas do telefone foram criados dentro do JS.
 
-Clique aqui[https://brunosabbagmachado.github.io/telefone-Samsung/] para ver o projeto;
+Clique [aqui](https://brunosabbagmachado.github.io/telefone-Samsung/) para ver o projeto;
